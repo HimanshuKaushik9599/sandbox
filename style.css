@@ -1,0 +1,199 @@
+
+        body {
+            margin: 0%;
+            padding: 0%;
+        }
+        p{
+            color: rgb(80, 77, 77);
+        }
+        
+        nav > img {
+            float: left;
+            height: 40px;
+            width: 110px;
+            margin: 10px 0px 0px 60px;
+        }
+        
+        header {
+            background-image: url(resources/1.jpg);
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            text-align: center;
+            height: 700px;
+        }
+        
+        .navbar {
+            color: rgb(255, 251, 251);
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        li {
+            display: inline-block;
+        }
+        
+        a {
+            display: inline-block;
+            padding: 5px;
+            color: rgb(8, 8, 8);
+            text-decoration: none;
+            margin: 10px;
+        }
+        
+        a:hover {
+            background-color: rgb(233, 244, 27);
+            border-radius: 10px;
+        }
+        
+        ul > button {
+            background-color: rgb(83, 83, 200);
+            width: 100px;
+            border-radius: 10px;
+            color: white;
+            padding: 7px;
+        }
+        
+        .head {
+            padding: 100px;
+            text-align: center;
+        }
+        
+        .head > div {
+            display: inline-block;
+            vertical-align: middle;
+            width: 500px;
+        }
+        
+        div > img {
+            max-width:75%;
+            height: auto;
+
+        }
+        
+        button:hover {
+            background-color: red;
+        }
+        
+        .head > div > button {
+            border-radius: 10px;
+            width: 100px;
+            padding: 7px;
+            color: rgb(243, 242, 247);
+            background-color: rgb(83, 83, 200);
+            margin: 10px;
+        }
+       
+        .div1 > div {
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            margin: 30px 10px;
+            padding: 20px;
+        }
+        
+        .div1 > div > img {
+            max-width: 12%;
+            height: auto;
+        }
+        
+        .div1 > div > a {
+            text-decoration: none;
+            color: rgb(83, 83, 200);
+        }
+        
+        .div1 {
+            text-align: center;
+            padding-top: 100px;
+        }
+        
+        .sec1 {
+           padding: 80px 250px 100px 250px;
+        }
+        
+        .sec1 > div {
+            display: inline-block;
+            width: 100%;
+            max-width: 350px;
+           
+        }
+        
+        .sec1 > div > img {
+            max-width: 140%;
+            height: auto;
+            
+        }
+        
+        .sec1 > div > p {
+            width: 120%;
+            text-align: center;
+            text-align: justify;
+            margin-bottom: 50px;
+        }
+        
+        .sec1 > div > h1 {
+            width: 130%;
+            text-align: justify;
+        }
+
+        #footpart{
+            float: right;
+            text-align: center;
+            margin-left: 10px;
+
+        }
+        #footpart>div>img{
+            width: 30px;
+            height: 30px;
+        }
+        
+        pre {
+            color: rgb(83, 83, 200);
+        }
+        
+        h4 {
+            color: black;
+        }
+        
+        .head > div > button:hover {
+            background-color: red;
+        }
+        
+        h1:nth-child(1) {
+            color: rgb(83, 83, 200);
+        }
+
+        @media screen and (max-width: 768px) {
+            .head > div {
+                width: 100%;
+            }
+
+            .div1 > div,
+            .sec1 > div {
+                width: 100%;
+                max-width: none;
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animated {
+            animation: fadeInUp 2s ease-in-out;
+        }
+  
